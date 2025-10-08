@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "7169b013-0460-489c-91bc-f1e22c84cfb5",
+		"name": "fogadó",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41645772"
+	},
+	"item": [
+		{
+			"name": "fut",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "szobak",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/szobak",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"szobak"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "szobak kulon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/szobak/Kuka",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"szobak",
+						"Kuka"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendeg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/vendej",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"vendej"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "foglalt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/foglalt/Kuka",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"foglalt",
+						"Kuka"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Fejlec from './components/Fejlec';
+import Main from './main';
+import Tajekoztato from './components/Tajekoztato';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        
-      </div>
-     
-    </>
-  )
+    <Router>
+      <Fejlec />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/tajekoztato" element={<Tajekoztato />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

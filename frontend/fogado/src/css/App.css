@@ -1,144 +1,148 @@
-body{
-  color: #293647;
- 
+body {
+    font-family: Arial, sans-serif;
+    color: #293647;
 }
- 
+
 .bg-fej {
-  background-position: center;
-  height: 500px;
-  margin-bottom: 20px;
+    background-image: url('../img/top.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 20px;
 }
- 
- 
-.bg-fej h1{
-  color: black;
-  font-size: 250%;
-  text-transform: uppercase;
-  text-decoration: underline overline;
-  font-weight: bold;
+
+.bg-fej h1 {
+    color: black;
+    font-size: 250%;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    font-weight: bold;
 }
-.bg-fej h3{
-  color: black;
-  text-transform: uppercase;
-  text-decoration: underline overline;
-  font-weight: bold;
+
+.bg-fej h3 {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    font-weight: bold;
 }
- 
-.container{
-  margin-bottom: 25px;
+
+.container {
+    margin-bottom: 25px;
 }
- 
+
 .bg-torzs {
-  align-content: center;
+    background-color: #C5C599;
+    min-height: 100vh;
 }
- 
-h3{
+
+h3 {
   margin: 25px 0px;
 }
- 
+
 a {
   font-style: italic;
   font-weight: bold;
   color: darkblue;
 }
- 
-#szel, #mag{
+
+#szel, #mag {
   margin: 0px auto 15px;
 }
- 
+
 #kalkGomb {
   margin: 20px auto;
 }
- 
-#valasz{
-  visibility:hidden;
+
+#valasz {
+  visibility: hidden;
 }
- 
- 
- 
- 
-.hollokoKep{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  height: 250px;
-  text-align: center;
-  border: 1px black solid;
-  padding: 5px;
-  background-color: white;
+
+.hollokoKep {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
- 
- 
-.lists{
+
+.lists {
   text-align: left;
 }
- 
-.ketagyKep{
+
+.ketagyKep {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  height: 250px;
-  text-align: center;
-  border: 1px black solid;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 1px solid black;
   padding: 5px;
   background-color: white;
- 
 }
- 
-.elsoSzoveg{
+
+.elsoSzoveg {
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
 }
- 
-#elsoOszlop{
-  background-color:  #C5C599
+
+#elsoOszlop {
+  background-color: #C5C599;
 }
- 
-#harmadikOszlop{
-  background-color:  #C5C599
+
+#harmadikOszlop {
+  background-color: #C5C599;
 }
- 
-.szamlists{
+
+.szamlists {
   align-items: left;
 }
- 
-.torpe-yapp{
+
+.torpe-yapp {
   text-align: left;
 }
- 
-.fej{
+
+.fej {
   align-items: center;
 }
- 
- 
-.table table-striped{
+
+.table {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table th {
+    background-color: #C5C599;
+    color: black;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table table-striped {
   text-align: left;
   background-color: #C5C599;
 }
- 
-.fo{
+
+.fo {
   text-align: left;
 }
- 
-#cim{
+
+#cim {
   margin: 20px 5px;
   text-align: left;
 }
- 
- 
- 
-fogado.css
- 
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
- 
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -155,7 +159,7 @@ fogado.css
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
- 
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -164,20 +168,106 @@ fogado.css
     transform: rotate(360deg);
   }
 }
- 
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
- 
+
 .card {
   padding: 2em;
 }
- 
+
 .read-the-docs {
   color: #888;
 }
- 
- 
- 
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.btn-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background-color: #C5C599;
+    border: 1px solid #ddd;
+}
+
+.col-md-4 {
+    background-color: #C5C599;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.col-md-6 {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #293647;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #1f2a35;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .content {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .col-md-4, .col-md-6 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+}
+
+
+

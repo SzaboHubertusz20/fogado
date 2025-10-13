@@ -7,7 +7,7 @@ function Tajekoztato() {
 
             <section className="mb-5">
                 <h2>Falusi szálláshely fajtái</h2>
-                <ul>
+                <ul className="lists">
                     <li>
                         <strong>Vendégszoba:</strong> a vendégek rendelkezésére bocsátható önálló lakóegység, amely egy lakóhelyiségből, és a minősítéstől függően a hozzátartozó mellékhelyiségekből áll.
                     </li>
@@ -25,14 +25,13 @@ function Tajekoztato() {
 
             <section className="mb-5">
                 <h2>A hét törpe fogadó jellemzői</h2>
-                <ul>
+                <ul className="lists">
                     <li>Ruhásszekrény</li>
                     <li>Saját fürdőszoba zuhanytálcával</li>
                     <li>WC (fürdőszobával egyben)</li>
                 </ul>
             </section>
-
-          </div>
+        </div>
     );
 }
 

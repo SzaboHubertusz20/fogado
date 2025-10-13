@@ -1,19 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Fejlec from './components/Fejlec';
-import Main from './main';
-import Tajekoztato from './components/Tajekoztato';
+import SzobaLista from './components/SzobaLista';
+import Kihasznaltsag from './components/Kihasznaltsag';
 
 function App() {
-  return (
-    <Router>
-      <Fejlec />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/tajekoztato" element={<Tajekoztato />} />
-      </Routes>
-    </Router>
-  );
+    return (
+        <Router>
+            <Fejlec />
+            <div className="bg-torzs">
+                <Routes>
+                    <Route path="/" element={<SzobaLista />} />
+                    <Route path="/kihasznaltsag" element={<Kihasznaltsag />} />
+                    
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

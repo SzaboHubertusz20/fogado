@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+
 import axios from 'axios';
+
 import logo from '../img/logo.png'; // Importáljuk a logót
 
 function SzobaLista() {
@@ -36,7 +38,7 @@ function SzobaLista() {
                 </div>
 
                 {/* Középső tartalom */}
-                <div className="content">
+                <div className="content1">
                     <h3>Falusi szálláshely fajtái</h3>
                     <ul>
                         <li>Vendégszoba: a vendégek rendelkezésére bocsátható önálló lakóegység.</li>

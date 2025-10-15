@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #293647;
+    
 }
 
 .bg-fej {
@@ -85,13 +86,7 @@ a {
   margin-right: 10px;
 }
 
-#elsoOszlop {
-  background-color: #C5C599;
-}
 
-#harmadikOszlop {
-  background-color: #C5C599;
-}
 
 .szamlists {
   align-items: left;
@@ -110,6 +105,7 @@ a {
     border: 1px solid #ddd;
     width: 100%;
     margin: 0 auto;
+   
 }
 
 .table th {
@@ -203,6 +199,7 @@ ul {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    background-color: #ffffff;
 }
 
 .content {
@@ -211,6 +208,15 @@ ul {
     padding: 15px;
     background-color: #C5C599;
     border: 1px solid #ddd;
+    text-align: left;
+}
+.content1 {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
 .col-md-4 {

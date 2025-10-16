@@ -14,7 +14,7 @@ const db = mysql2.createConnection({
     user: "root",
     password: "",
     database: "fogado",
-    port: "3307"
+    port: "3306"
 });
  
 //A szerver működésének ellenőrzése
